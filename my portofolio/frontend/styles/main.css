@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+  height: 2500px;
+  overflow-x: hidden;
+  background-color: #050505;
+}
+
+.container {
+  background-color: red;
+  padding: 8px;
+  background-color: transparent;
+  padding-top: 10px;
+}
+
+.container h1 {
+  color: #1cf11c;
+  font-size: 30px;
+  margin-left: -55px;
+  margin-right: 20px;
+}
+
+.container .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container li {
+  margin: 13px;
+  list-style: none;
+}
+
+.container li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container li:first-child {
+  margin-left: 0;
+}
+
+.container li:last-child {
+  margin-right: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #181717;
+  color: #fff;
+  margin-top: -64px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 600px;
+  overflow: hidden;
+}
+
+header img {
+  height: 500px;
+  margin-bottom: -100px;
+  margin-left: 40px;
+}
+
+header .little-about {
+  margin-top: -10px;
+}
+
+header .little-about p {
+  line-height: 35px;
+  font-size: 18px;
+}
+
+header .little-about p b {
+  color: #1cf11c;
+}
+
+header .little-about .name {
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 70px;
+}
+
+header .little-about .country {
+  color: #fa6060;
+}
+
+header .little-about button {
+  padding: 10px 14px 10px 14px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #1cf11c;
+  font-weight: bold;
+  -webkit-box-shadow: 0 8px 2px 2px;
+          box-shadow: 0 8px 2px 2px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header .little-about button:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-top: 15px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #050505;
+  padding: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 120px;
+}
+
+main .introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  background-color: rgba(44, 42, 42, 0.2);
+  color: #fff;
+  font-size: 25px;
+  margin-left: -100px;
+  padding: 40px;
+  width: 45%;
+  height: 600px;
+  border-radius: 2rem;
+  position: relative;
+}
+
+main .introduction p b {
+  font-size: 70px;
+}
+
+main .introduction .passions {
+  margin-top: 200px;
+  position: absolute;
+  right: -50px;
+  bottom: 60px;
+}
+
+main .introduction .passions .item {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#1cf11c), to(#0abb0a));
+  background-image: linear-gradient(to bottom right, #1cf11c, #0abb0a);
+  margin-bottom: 10px;
+  width: 300px;
+  font-size: 15px;
+  padding: 15px 25px 15px 25px;
+  border-radius: 8px;
+}
+
+main .introduction .round {
+  width: 200px;
+  height: 200px;
+  background-color: #1cf11c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 200px 0 2rem;
+}
+
+main .about {
+  color: #e4e1e1;
+  width: 400px;
+}
+
+main .about h2 {
+  font-size: 50px;
+  margin-left: -1px;
+}
+
+main .about p {
+  font-size: 15px;
+  color: rgba(228, 225, 225, 0.9);
+  font-weight: 100;
+}
+
+main .about p:nth-child(2) {
+  margin-top: 40px;
+}
+
+.main-works {
+  background-color: #181717;
+  color: #fff;
+  border-radius: 2rem;
+  margin-top: -30.5px;
+  padding-bottom: 2rem;
+}
+
+.main-works .judul {
+  margin-left: 4rem;
+  padding-top: 40px;
+}
+
+.main-works .judul h3 {
+  font-size: 3.5rem;
+  word-spacing: 0.5rem;
+  color: #1cf11c;
+}
+
+.main-works .judul p {
+  font-size: 1.2rem;
+  word-spacing: 0.3rem;
+  margin-top: 15px;
+}
+
+.main-works .works-examples {
+  margin-left: 4rem;
+  margin-top: 20px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-works .works-examples .link .example {
+  margin: 0.5rem 2rem 2rem 0;
+}
+
+footer {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .container {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #1cf11c;
+  border-radius: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 200px;
+}
+
+footer .container .left {
+  padding-right: 2rem;
+}
+
+footer .container .left h3 {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+footer .container .left p {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+footer .container .right {
+  text-align: center;
+}
+
+footer .container .right p {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+footer .container .right a button {
+  background-color: #54da54;
+  border: none;
+  padding: 1.1rem 3rem 1.1rem 3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0.5px 5px rgba(97, 95, 95, 0.5);
+          box-shadow: 0 0.5px 5px rgba(97, 95, 95, 0.5);
+  -webkit-transition: .2s;
+  transition: .2s;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+footer .container .right a button:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media screen and (max-width: 760px) {
+  .navbar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar h1 {
+    margin-left: 5px;
+    margin-right: -20px;
+  }
+  header {
+    display: block;
+    padding-top: 200px;
+    height: 968px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  main {
+    display: block;
+  }
+  main .introduction {
+    width: 150%;
+    margin-bottom: 100px;
+  }
+  main .introduction .passions {
+    z-index: 2;
+    top: 80px;
+  }
+  main .about {
+    margin-left: -50px;
+  }
+  footer .container {
+    display: block;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+  }
+  footer .container .left p {
+    padding-top: 2rem;
+  }
+  footer .container .right {
+    padding-top: 4rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
